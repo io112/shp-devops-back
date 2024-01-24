@@ -2,6 +2,7 @@ pipeline {
     agent none
     environment {
         IMAGE_NAME = "iorp/common-numbers"
+        HUB_CRED_ID = 
     }
     stages {
         stage("build") {
