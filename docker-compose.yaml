@@ -1,5 +1,5 @@
 services:
     backend:
-        image: iorp/common_number:latest
+        image: iorp/common-numbers:latest
         ports:
             - 8101:8080
